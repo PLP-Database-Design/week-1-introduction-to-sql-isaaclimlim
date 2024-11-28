@@ -1,62 +1,13 @@
 ## Question 1
 
 The main components of a DBMS are as follows:
+   Software
+   Hardware
+   Data
+   Procedure
+   Data Access Language
+   Users
 
-1. Database Engine
-   The database engine is the core of the DBMS. It handles data storage, retrieval, and update operations on the database. It ensures data consistency and integrity while processing queries and transactions. It also manages concurrent access to the database, ensuring no conflicts arise when multiple users interact with it simultaneously.
-   Key Tasks:
-   Processing SQL queries.
-   Optimizing and executing data operations.
-   Ensuring data integrity.
-
-2. Database Schema
-   The schema defines the structure of the database. It acts as a blueprint for how data is organized into tables, columns, relationships, and constraints. The schema ensures that the database follows specific rules and is consistently structured.
-   Key Features:
-   Specifies data types and constraints.
-   Defines relationships between tables.
-   Supports modifications to adapt to changing requirements.
-
-3. Query Processor
-   The query processor interprets and executes database queries written in SQL. It acts as a bridge between users and the database engine. It ensures that queries are optimized and executed efficiently.
-   Key Functions:
-   Translates high-level SQL queries into low-level instructions for the database engine.
-   Optimizes queries to reduce execution time.
-   Validates the syntax and semantics of queries.
-
-4. Data Manager
-   The data manager is responsible for managing the actual data stored in the database. It ensures efficient storage, retrieval, and updating of data. It includes buffer management, disk management, and handling metadata (data about data).
-   Key Roles:
-   Allocates storage space.
-   Organizes data on physical storage.
-   Ensures data recovery in case of system failure.
-
-5. Transaction Management
-   This component ensures that database operations are performed reliably and follow the ACID properties (Atomicity, Consistency, Isolation, Durability). It manages transactions to prevent issues like data corruption, deadlocks, and concurrent access anomalies.
-   Key Features:
-   Rollback and commit operations.
-   Ensures isolation between transactions.
-   Guarantees data consistency in the event of failures.
-
-6. Security Manager
-   The security manager controls access to the database. It enforces authentication, authorization, and encryption mechanisms to protect sensitive data.
-   Key Responsibilities:
-   User authentication (verifying identities).
-   Role-based access control (defining who can access what).
-   Encryption for secure data transmission and storage.
-
-7. Backup and Recovery System
-   This component ensures that data can be restored in case of system failures, crashes, or accidental deletions. It maintains backups and provides mechanisms to recover the database to its last consistent state.
-   Key Aspects:
-   Regularly scheduled backups.
-   Tools for restoring specific data or the entire database.
-   Ensures minimal data loss during recovery.
-
-8. User Interface
-   The user interface provides an accessible way for users to interact with the DBMS. It includes graphical interfaces, command-line tools, and APIs for application integration.
-   Common Examples:
-   Admin dashboards for database management.
-   Query builders for non-technical users.
-   APIs for developers to connect applications with the database.
 
 ## Question 2
 
